@@ -9,7 +9,8 @@ Shared repository for multiple Unity projects
 `main` 为主分支，用于保存经过确认后的稳定版本。日常开发请勿直接在 `main` 上进行修改，应通过独立 Branch 开发，并使用 Pull Request 合并到 `main`。
 
 ---
-
+下述内容为docu文档内[Git 新手使用指南](Docs/Git-Beginner-Guide.md)与[项目贡献与提交规范](CONTRIBUTING.md)的部分简述可直接转到该文档内查看完整版
+若你有一定git使用基础可以直接看下述的库编辑规则
 ## Repository Structure
 
 仓库基础结构如下：
@@ -193,7 +194,7 @@ git switch main
 git pull
 ```
 
-创建自己的开发分支：
+！！！！！！创建自己的开发分支：（重要！！！！！建议你在置入自己项目的时候单独创建一个分支，这样可以防止上传库时覆盖别人的上传，并且可以形成一份自己分支的日志）
 
 ```bash
 git switch -c <用户名>/<修改内容>
