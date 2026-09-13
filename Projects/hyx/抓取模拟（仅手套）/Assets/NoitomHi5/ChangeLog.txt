@@ -1,0 +1,22 @@
+System Requirements
+Unity 2019.4.18+
+Windows 10+
+
+Change Log
+v1.1.1.13
+Added support for Rumbler.
+Updated the Example_Inertia scene for Rumbler.
+Updated the Hi5Glove.dll to R44 version.
+
+v1.1.0.23
+Fixed a bug where the unity 2021 2022 version stucked screen.
+Added Reconnect Button.
+
+v1.0.0.19
+Added an API to enable/disable "Fixed finger" function.
+Fixed a bug where the hand model was not visible after calibration.
+
+
+
+
+
